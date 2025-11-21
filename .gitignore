@@ -1,0 +1,54 @@
+# ----------------------------
+# Node.js / MERN Project
+# ----------------------------
+
+# Node Modules (Backend + Frontend)
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Files
+backend/.env
+frontend/.env
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build / Dist (React or Node)
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Temp / Cache files
+.cache/
+*.tmp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Uploads / Media (if any)
+backend/uploads/
+backend/uploads/*
+backend/public/uploads/
+
+# Coverage
+coverage/
+*.lcov
+
+# Lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
